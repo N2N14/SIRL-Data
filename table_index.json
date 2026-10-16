@@ -1,230 +1,66 @@
 {
   "paper": "SIRL: Safety-Internalizing Reinforcement Learning via Invertible Log-Barrier Mapping",
-  "manuscript_version": "SIRL_MinimalSubmission_20261016_r40",
   "appendix": "B",
   "tables": [
     {
       "table": "B.1",
-      "file": "data/B01_navigation_outcomes.csv",
-      "label": "tab:source-navigation",
-      "rows": 10,
-      "columns": [
-        "seed",
-        "method",
-        "success_pct",
-        "collision_pct"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B01_navigation_outcomes.csv"
     },
     {
       "table": "B.2",
-      "file": "data/B02_comparison_off_summary.csv",
-      "label": "tab:off-comparison-summary-1",
-      "rows": 3,
-      "columns": [
-        "method",
-        "recovery_violation_pct_mean",
-        "recovery_violation_pct_sample_sd",
-        "safety_threshold_violation_pct_mean",
-        "safety_threshold_violation_pct_sample_sd",
-        "danger_exposure_pct_mean",
-        "danger_exposure_pct_sample_sd"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B02_comparison_off_summary.csv"
     },
     {
       "table": "B.3",
-      "file": "data/B03_comparison_off_by_seed.csv",
-      "label": "tab:off-comparison-individual-1",
-      "rows": 15,
-      "columns": [
-        "seed",
-        "method",
-        "recovery_violation_pct",
-        "safety_threshold_violation_pct",
-        "danger_exposure_pct"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B03_comparison_off_by_seed.csv"
     },
     {
       "table": "B.4",
-      "file": "data/B04_ablation_off_summary.csv",
-      "label": "tab:off-ablation-summary-1",
-      "rows": 5,
-      "columns": [
-        "method",
-        "recovery_violation_pct_mean",
-        "recovery_violation_pct_sample_sd",
-        "safety_threshold_violation_pct_mean",
-        "safety_threshold_violation_pct_sample_sd",
-        "danger_exposure_pct_mean",
-        "danger_exposure_pct_sample_sd"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B04_ablation_off_summary.csv"
     },
     {
       "table": "B.5",
-      "file": "data/B05_ablation_off_by_seed.csv",
-      "label": "tab:off-ablation-individual-1",
-      "rows": 25,
-      "columns": [
-        "seed",
-        "method",
-        "recovery_violation_pct",
-        "safety_threshold_violation_pct",
-        "danger_exposure_pct"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B05_ablation_off_by_seed.csv"
     },
     {
       "table": "B.6",
-      "file": "data/B06_correction_rate_summary.csv",
-      "label": "tab:on-summary-rate",
-      "rows": 5,
-      "columns": [
-        "method",
-        "correction_above_001_pct_mean",
-        "correction_above_001_pct_sample_sd"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B06_correction_rate_summary.csv"
     },
     {
       "table": "B.7",
-      "file": "data/B07_correction_rate_by_seed.csv",
-      "label": "tab:on-individual-rate",
-      "rows": 25,
-      "columns": [
-        "seed",
-        "method",
-        "correction_above_001_pct"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B07_correction_rate_by_seed.csv"
     },
     {
       "table": "B.8",
-      "file": "data/B08_correction_magnitude_summary.csv",
-      "label": "tab:on-summary-magnitude",
-      "rows": 5,
-      "columns": [
-        "method",
-        "correction_mean_mean",
-        "correction_mean_sample_sd",
-        "correction_p50_mean",
-        "correction_p50_sample_sd",
-        "correction_p90_mean",
-        "correction_p90_sample_sd",
-        "correction_p95_mean",
-        "correction_p95_sample_sd",
-        "correction_p99_mean",
-        "correction_p99_sample_sd"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B08_correction_magnitude_summary.csv"
     },
     {
       "table": "B.9",
-      "file": "data/B09_correction_magnitude_by_seed.csv",
-      "label": "tab:on-individual-magnitude",
-      "rows": 25,
-      "columns": [
-        "seed",
-        "method",
-        "correction_mean",
-        "correction_p50",
-        "correction_p90",
-        "correction_p95",
-        "correction_p99"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B09_correction_magnitude_by_seed.csv"
     },
     {
       "table": "B.10",
-      "file": "data/B10_SAC_learning_success.csv",
-      "label": "tab:source-train-ordinary-success",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B10_SAC_learning_success.csv"
     },
     {
       "table": "B.11",
-      "file": "data/B11_SAC_learning_collision.csv",
-      "label": "tab:source-train-ordinary-collision",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B11_SAC_learning_collision.csv"
     },
     {
       "table": "B.12",
-      "file": "data/B12_SRad_learning_success.csv",
-      "label": "tab:source-train-srad_sac_shared_constraints-success",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B12_SRad_learning_success.csv"
     },
     {
       "table": "B.13",
-      "file": "data/B13_SRad_learning_collision.csv",
-      "label": "tab:source-train-srad_sac_shared_constraints-collision",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B13_SRad_learning_collision.csv"
     },
     {
       "table": "B.14",
-      "file": "data/B14_SIRL_learning_success.csv",
-      "label": "tab:source-train-exec_exec-success",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B14_SIRL_learning_success.csv"
     },
     {
       "table": "B.15",
-      "file": "data/B15_SIRL_learning_collision.csv",
-      "label": "tab:source-train-exec_exec-collision",
-      "rows": 18,
-      "columns": [
-        "window",
-        "seed_42",
-        "seed_217",
-        "seed_1250",
-        "seed_612",
-        "seed_19031228"
-      ],
-      "precision": "full-precision source values; paper display verified"
+      "file": "data/B15_SIRL_learning_collision.csv"
     }
   ],
   "seeds": [
