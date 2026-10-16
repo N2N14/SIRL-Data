@@ -1,0 +1,63 @@
+{
+  "fields": {
+    "success_pct": {
+      "source_field": "native.success_rate",
+      "unit": "percent"
+    },
+    "collision_pct": {
+      "source_field": "native.collision_rate",
+      "unit": "percent"
+    },
+    "recovery_violation_pct": {
+      "source_field": "native.executed_barrier_violation_rate",
+      "unit": "percent"
+    },
+    "safety_threshold_violation_pct": {
+      "source_field": "native.executed_margin_violation_rate",
+      "unit": "percent"
+    },
+    "danger_exposure_pct": {
+      "source_field": "native.executed_calibration_danger_step_ratio",
+      "unit": "percent"
+    },
+    "correction_above_001_pct": {
+      "source_field": "native.material_intervention_rate_001",
+      "unit": "percent"
+    },
+    "correction_mean": {
+      "source_field": "native.mean_action_correction",
+      "unit": "dimensionless normalized-action Euclidean distance"
+    },
+    "correction_p50": {
+      "source_field": "native.action_correction_p50",
+      "unit": "dimensionless normalized-action Euclidean distance"
+    },
+    "correction_p90": {
+      "source_field": "native.action_correction_p90",
+      "unit": "dimensionless normalized-action Euclidean distance"
+    },
+    "correction_p95": {
+      "source_field": "native.action_correction_p95",
+      "unit": "dimensionless normalized-action Euclidean distance"
+    },
+    "correction_p99": {
+      "source_field": "native.action_correction_p99",
+      "unit": "dimensionless normalized-action Euclidean distance"
+    }
+  },
+  "seed_columns": {
+    "seed_42": "Training seed 42",
+    "seed_217": "Training seed 217",
+    "seed_1250": "Training seed 1250",
+    "seed_612": "Training seed 612",
+    "seed_19031228": "Training seed 19031228"
+  },
+  "window": "Window i is ((i-1)*100000, i*100000] physical transitions; 18 complete windows",
+  "success_percent": "100 * success_count / completed_episodes within a physical-transition window",
+  "collision_events_per_10000": "10000 * collision_count / physical_transitions",
+  "correction_above_001": "Strictly greater than 0.01 in normalized-action Euclidean distance",
+  "summary": "Equal-weight mean and sample standard deviation across five training seeds (ddof=1)",
+  "OFF": "State-dependent safety map removed; SRad retains only a fixed zero-centered action box",
+  "ON": "Common log-barrier map active for SIRL, density configurations and Q-STE",
+  "missing_values": "No missing measurements are represented by zero; all published table cells are present"
+}

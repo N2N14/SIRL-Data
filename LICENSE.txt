@@ -1,0 +1,11 @@
+SIRL Appendix B dataset
+Copyright (c) 2026 Haoqi Wang, Yujie Cui, and Bo Li.
+
+This dataset is licensed under the Creative Commons Attribution 4.0 International
+(CC BY 4.0) license.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+Full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: Haoqi Wang, Yujie Cui, and Bo Li. SIRL: Safety-Internalizing
+Reinforcement Learning via Invertible Log-Barrier Mapping. Appendix B dataset, 2026.
